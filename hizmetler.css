@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/*CSS Document*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Stardos+Stencil:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+ul{
+    list-style: none;
+}
+body {
+    background-color: rgba(19, 59, 43, 0.877);
+}
+#container{
+    width: auto;
+    height: 100px;
+
+}
+#logo{
+    float: left;
+    margin-left: 0px;
+    margin-right:0px ;
+   width: 100px;
+   height: 100px;
+   display: flex;
+    
+}
+#forrest h1{
+    font-size: 90px;
+    color:  #12202d;
+    font-family: 'Stardos Stencil', cursive;
+}
+#menu{
+    width: auto;
+    height: auto;
+    background-color: #12202d;
+    text-align: center;
+    
+    
+
+}
+#menu li{
+    display: inline-block;
+   
+}
+#menu a {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 200;
+    padding: 0px 100px;
+    display:inline-block;
+    line-height: 75px;
+    font-weight: 500;
+
+}
+#menu a:hover{
+    background-color: #1d4050;
+}
+
+.paragraf {
+    text-indent: 20px;
+    font-size: 15px;
+    margin:10px ;
+
+}
+#bannerTop{
+ 
+    width: 760px;
+    height: inherit;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+h2{
+    margin-top: 20px;
+    font-size: 50px;
+
+}
+#fotobir{
+    width: 640px;
+    height: 400px;
+   background-image: url(images/fotobir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:5px;
+}
+#bannerBottom{
+    width: 760px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fotoiki{
+    width: 640px;
+    height: 400px;
+    background-image: url(images/fotoiki.jpg);
+}
+
+
+
+footer{
+    width: 100%;
+    height: 35px;
+    background-color:#12202d;
+    color: white;
+    position: sticky;
+    bottom:0;
+    font-size: 18px;
+    text-align: right;
+    padding-top: 15px;
+    letter-spacing: 1px; 
+    display: inline-block;
+
+}
+footer > a {
+    margin-right: 15px;
+}
+footer>p {
+    margin:0px;
+    float: left;
+
+}
+@media only screen and (max-width:960px){
+#forrest h1 {
+    font-size: 40px;
+
+}
+#menu{
+    width: 100%;
+    height:auto;
+    background-color: #12202d;
+    text-align: center;
+}
+
+
+
+.paragraf {
+    text-indent: 20px;
+    font-size: 13px;
+    margin:10px ;
+
+}
+#bannerTop{
+ 
+    width: 100%;
+    height: inherit;
+    top: 20px;
+}
+h2{
+    margin-top: 15px;
+    font-size: 38px;
+
+}
+#fotobir{
+    width: 100%;
+    height: 300px;
+    top:5px;
+}
+#bannerBottom{
+    width: 100%;
+    height: auto;
+}
+#fotoiki{
+    width: 100%;
+    height: 300px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 35px;
+    bottom:0;
+    font-size: 10px;
+
+}
+
+}

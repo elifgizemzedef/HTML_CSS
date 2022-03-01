@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/*CSS Document*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Stardos+Stencil:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+ul{
+    list-style: none;
+}
+body {
+    background-color:rgba(19, 59, 43, 0.877) ;
+}
+#container{
+    width: auto;
+    height: 100px;
+
+}
+#logo{
+    float: left;
+    margin-left: 0px;
+    margin-right:0px ;
+   width: 100px;
+   height: 100px;
+   display: flex;
+    
+}
+#forrest h1{
+    font-size: 40px;
+    color:  #12202d;
+    font-family: 'Stardos Stencil', cursive;
+    
+
+}
+#menu{
+    width: auto;
+    height: auto;
+    background-color:#12202d ;
+    text-align: center;
+    
+
+}
+#menu li{
+    display: inline-block;
+}
+#menu a {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 200;
+    padding: 0px 100px;
+    display:inline-block;
+    line-height: 55px;
+    font-weight: 500;
+}
+#menu a:hover{
+    background-color: #1d4050;
+}
+#banner {
+    width: 100%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+    margin-top: 10px;
+
+}
+#bannerTop{
+    width: 56%,;
+    max-width: 560px;
+    height:auto;
+    position: relative;
+    top: 10px;
+    margin: auto;
+    border-style: solid;
+    border-color:#12202d ;
+    border-width: 6px;
+    text-align: center;
+
+}
+h2{
+    margin-top: 5px;
+    font-size: 50px;
+}
+strong{
+    font-size: 35px;
+
+}
+#bannerTop>p>a{
+    font-size:20px;
+
+
+}
+#map{
+    width:100%; 
+    height: auto;
+    text-align: center;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+footer{
+    width: 100%;
+    height: 35px;
+    background-color:#12202d;
+    color: white;
+    position: sticky;
+    bottom:0;
+    font-size: 10px;
+    text-align: right;
+    padding-top: 15px;
+    letter-spacing: 1px; 
+    display: inline-block;
+
+}
+footer > a {
+    margin-right: 15px;
+}
+footer>p {
+    margin:0px;
+    float: left;
+
+}
+@media only screen and (min-width:960px ){
+   
+
+    #logo{
+        float: left;
+        margin-left: 0px;
+        margin-right:0px ;
+       width: 100px;
+       height: 100px;
+       display: flex;
+        
+    }
+    #forrest h1{
+        font-size: 90px;
+        color:  #12202d;
+        font-family: 'Stardos Stencil', cursive;
+    }
+    #menu{
+        width: auto;
+        height: auto;
+        background-color:#12202d ;
+        text-align: center;
+        
+    
+    }
+    #menu li{
+        display: inline-block;
+    }
+    #menu a {
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: 200;
+        padding: 0px 100px;
+        display:inline-block;
+        line-height: 75px;
+        font-weight: 500;
+    }
+    #menu a:hover{
+        background-color: #1d4050;
+    }
+    #banner {
+        width: 960px;
+        height: 960px;
+        margin-left: auto;
+        margin-right: auto;
+      text-align: center;
+        margin-top: 10px;
+    
+    }
+    #bannerTop{
+        width: 560px;
+        height:auto;
+        position: relative;
+        top: 10px;
+        margin: auto;
+        border-style: solid;
+        border-color:#12202d ;
+        border-width: 6px;
+        text-align: center;
+    
+    }
+    h2{
+        margin-top: 5px;
+        font-size: 50px;
+    }
+    strong{
+        font-size: 35px;
+    
+    }
+    #bannerTop>p>a{
+        font-size:20px;
+    
+    
+    }
+    #map{
+        width: 960px; 
+        height: auto;
+        text-align: center;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    footer{
+        width: 100%;
+        height: 35px;
+        background-color:#12202d;
+        color: white;
+        position: sticky;
+        bottom:0;
+        font-size: 18px;
+        text-align: right;
+        padding-top: 15px;
+        letter-spacing: 1px; 
+        display: inline-block;
+    
+    }
+    footer > i {
+        margin-right: 15px;
+    }
+    footer>p {
+        margin:0px;
+        float: left;
+    
+    }
+}
